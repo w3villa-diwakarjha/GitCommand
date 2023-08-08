@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div>
+        <div class="inputstyle">
+            <label for="number1" class="labelStyle">Number 1:</label>
+            <input type="text" id="number1" name="number1">
+        </div>
+        <div class="inputstyle">
+            <label for="number2" class="labelStyle">Number 2:</label>
+            <input type="text" id="number2" name="number2">
+        </div><br>
+
+        <div class="inputstyle">
+            <label for="result" class="labelStyle">Result:</label>
+            <input type="text" id="result" style="margin-left: 25px;">
+        </div><br>
+        <button class="buttonStyle" onclick="add()">+</button>
+        <button class="buttonStyle" onclick="sub()">-</button>
+        <button class="buttonStyle" onclick="mul()">*</button>
+        <button class="buttonStyle" onclick="div()">/</button>
+    </div><br>
+    <div style="margin-left: 80px;">
+        <button class="buttonStyle" onclick="clearInput()">Clear All</button>
+    </div>
+</body>
+</html>
